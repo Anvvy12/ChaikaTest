@@ -1,0 +1,57 @@
+.transoction-list {
+  list-style: none;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  &__item {
+    padding-right: 5px;
+    display: flex;
+    width: 95%;
+    border-bottom: 1px solid #c9c6c6;
+    margin-left: auto;
+  }
+}
+
+.item-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.list-icon {
+  height: 60px;
+  width: 60px;
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+}
+
+.description-container {
+  padding: 3px 5 3px 10px;
+  &__head {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__price {
+  }
+  &__description {
+    font-size: 12px;
+    color: #c9c6c6;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.item-arrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 5px auto auto;
+}

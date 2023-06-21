@@ -1,13 +1,14 @@
 import InfoContainer from "../info-container/InfoContainer";
 import ListContainer from "../list-container/ListContainer";
+import "./info-page.scss";
 
-const MainPage: React.FC = () => {
+const InfoPage: React.FC = () => {
   return (
-    <main>
+    <main className="main">
       <InfoContainer />
       <ListContainer />
     </main>
   );
 };
 
-export default MainPage;
+export default InfoPage;

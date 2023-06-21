@@ -1,4 +1,5 @@
 import TransactionList from "../transaction-list/TransactionList";
+import "./list-container.scss";
 
 const ListContainer: React.FC = () => {
   return (

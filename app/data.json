@@ -1,0 +1,103 @@
+{
+  "transactions": [
+    {
+      "type": "Payment",
+      "amount": 100,
+      "name": "IKEA",
+      "description": "Furniture purchase",
+      "date": "2023-06-20T10:30:00.000Z",
+      "pending": false,
+      "authorizedUser": null
+    },
+    {
+      "type": "Credit",
+      "amount": 200,
+      "name": "Target",
+      "description": "Shopping",
+      "date": "2023-06-19T15:45:00.000Z",
+      "pending": true,
+      "authorizedUser": "John Doe"
+    },
+    {
+      "type": "Payment",
+      "amount": 50,
+      "name": "Amazon",
+      "description": "Online purchase",
+      "date": "2023-06-18T09:20:00.000Z",
+      "pending": false,
+      "authorizedUser": null
+    },
+    {
+      "type": "Payment",
+      "amount": 75,
+      "name": "Walmart",
+      "description": "Grocery shopping",
+      "date": "2023-06-17T14:10:00.000Z",
+      "pending": false,
+      "authorizedUser": null
+    },
+    {
+      "type": "Credit",
+      "amount": 150,
+      "name": "Best Buy",
+      "description": "Electronics purchase",
+      "date": "2023-06-16T11:05:00.000Z",
+      "pending": true,
+      "authorizedUser": "Jane Smith"
+    },
+    {
+      "type": "Payment",
+      "amount": 30,
+      "name": "Starbucks",
+      "description": "Coffee",
+      "date": "2023-06-15T08:45:00.000Z",
+      "pending": false,
+      "authorizedUser": null
+    },
+    {
+      "type": "Payment",
+      "amount": 20,
+      "name": "Uber",
+      "description": "Ride",
+      "date": "2023-06-14T13:20:00.000Z",
+      "pending": false,
+      "authorizedUser": null
+    },
+    {
+      "type": "Credit",
+      "amount": 100,
+      "name": "Apple Store",
+      "description": "Gadget purchase",
+      "date": "2023-06-13T10:15:00.000Z",
+      "pending": true,
+      "authorizedUser": "John Doe"
+    },
+    {
+      "type": "Payment",
+      "amount": 60,
+      "name": "Netflix",
+      "description": "Subscription",
+      "date": "2023-06-12T07:30:00.000Z",
+      "pending": false,
+      "authorizedUser": null
+    },
+    {
+      "type": "Payment",
+      "amount": 25,
+      "name": "Subway",
+      "description": "Lunch",
+      "date": "2023-06-11T12:55:00.000Z",
+      "pending": false,
+      "authorizedUser": null
+    },
+    {
+      "type": "Credit",
+      "amount": 80,
+      "name": "Home Depot",
+      "description": "Home improvement",
+      "date": "2023-06-10T09:10:00.000Z",
+      "pending": true,
+      "authorizedUser": "Jane Smith"
+    }
+  ]
+}

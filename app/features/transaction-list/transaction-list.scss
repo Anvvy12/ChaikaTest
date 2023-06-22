@@ -1,3 +1,5 @@
+@import url("https://unpkg.com/css.gg@2.0.0/icons/css/chevron-right.css");
+
 .transoction-list {
   list-style: none;
   border-radius: 10px;
@@ -51,6 +53,7 @@
 }
 
 .item-arrow {
+  color: #c9c6c6;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

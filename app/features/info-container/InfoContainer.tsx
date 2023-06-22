@@ -14,26 +14,24 @@ const InfoContainer: React.FC = () => {
   const [dailyPoints, setdailyPoints] = useState<string>("");
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
-  const loading: JSX.Element = isLoading ? (
-    <span className="card-head">Loading...</span>
-  ) : (
-    <span className="card-balance"> ${balance}</span>
-  );
-
   return (
     <article className="info-container">
       <div className="left-col">
         <div className=" sup-block">
           <h5 className="card-head">Card Balance</h5>
-          {loading}
+          <span className="card-balance">
+            {isLoading ? "Loading..." : `$ ${balance}`}
+          </span>
           <br />
-          <span className="card-description">{`${
-            1500 - balance
-          } Available`}</span>
+          <span className="card-description">{`${(1500 - balance).toFixed(
+            2
+          )} Available`}</span>
         </div>
         <div className=" sup-block">
           <h5 className="card-head points">Daily Points</h5>
-          <span className="card-description ">{dailyPoints}</span>
+          <span className="card-description ">
+            {isLoading ? "Loading..." : dailyPoints}
+          </span>
         </div>
       </div>
       <div className="right-col">

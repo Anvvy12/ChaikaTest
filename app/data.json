@@ -7,7 +7,8 @@
       "description": "Furniture purchase",
       "date": "2023-06-20T10:30:00.000Z",
       "pending": false,
-      "authorizedUser": null
+      "authorizedUser": null,
+      "logo": "https://logowik.com/content/uploads/images/527_ikea.jpg"
     },
     {
       "type": "Credit",
@@ -16,7 +17,8 @@
       "description": "Shopping",
       "date": "2023-06-19T15:45:00.000Z",
       "pending": true,
-      "authorizedUser": "John Doe"
+      "authorizedUser": "John Doe",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4XUbU9bHwRIkIjjGvXa3rCJUjlpYM-m2NMg&usqp=CAU"
     },
     {
       "type": "Payment",
@@ -25,7 +27,8 @@
       "description": "Online purchase",
       "date": "2023-06-18T09:20:00.000Z",
       "pending": false,
-      "authorizedUser": null
+      "authorizedUser": null,
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYPcBi1HXJf4hHWCCQ3T3HeyB-30ZqhB1jlA&usqp=CAU"
     },
     {
       "type": "Payment",
@@ -34,7 +37,8 @@
       "description": "Grocery shopping",
       "date": "2023-06-17T14:10:00.000Z",
       "pending": false,
-      "authorizedUser": null
+      "authorizedUser": null,
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnBHBawKlCcXLJQM6s2xUoKH9xx-osBu8l5LX2yGss7TSqXeYsxCN7_hVyM89njTQm548&usqp=CAU"
     },
     {
       "type": "Credit",
@@ -43,7 +47,8 @@
       "description": "Electronics purchase",
       "date": "2023-06-16T11:05:00.000Z",
       "pending": true,
-      "authorizedUser": "Jane Smith"
+      "authorizedUser": "Jane Smith",
+      "logo": "https://cdn.iconscout.com/icon/free/png-256/free-best-buy-1863545-1580035.png"
     },
     {
       "type": "Payment",
@@ -52,7 +57,8 @@
       "description": "Coffee",
       "date": "2023-06-15T08:45:00.000Z",
       "pending": false,
-      "authorizedUser": null
+      "authorizedUser": null,
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVCacprn0_AJcsW9KGmZOlOWFE6mNNsWquvw&usqp=CAU"
     },
     {
       "type": "Payment",
@@ -61,7 +67,8 @@
       "description": "Ride",
       "date": "2023-06-14T13:20:00.000Z",
       "pending": false,
-      "authorizedUser": null
+      "authorizedUser": null,
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy4helOU4fMD3VDSCY0DIFP93868TUu1des3ftbg_xeJfNS3vkahynq7jKNf8Ce-llcpc&usqp=CAU"
     },
     {
       "type": "Credit",
@@ -70,7 +77,8 @@
       "description": "Gadget purchase",
       "date": "2023-06-13T10:15:00.000Z",
       "pending": true,
-      "authorizedUser": "John Doe"
+      "authorizedUser": "John Doe",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/App_Store_%28iOS%29.svg/2048px-App_Store_%28iOS%29.svg.png"
     },
     {
       "type": "Payment",
@@ -79,7 +87,8 @@
       "description": "Subscription",
       "date": "2023-06-12T07:30:00.000Z",
       "pending": false,
-      "authorizedUser": null
+      "authorizedUser": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/2048px-Netflix_icon.svg.png"
     },
     {
       "type": "Payment",
@@ -88,7 +97,8 @@
       "description": "Lunch",
       "date": "2023-06-11T12:55:00.000Z",
       "pending": false,
-      "authorizedUser": null
+      "authorizedUser": null,
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRORHPZYy8N0mgTArUAoYFLFKhexwACEyczfgIUygmYnBxtZ0Y3Cq44-2XFwAUdy7JsDek&usqp=CAU"
     },
     {
       "type": "Credit",
@@ -97,7 +107,8 @@
       "description": "Home improvement",
       "date": "2023-06-10T09:10:00.000Z",
       "pending": true,
-      "authorizedUser": "Jane Smith"
+      "authorizedUser": "Jane Smith",
+      "logo": "https://cdn-icons-png.flaticon.com/512/5977/5977592.png"
     }
   ]
 }

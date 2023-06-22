@@ -35,8 +35,16 @@
   width: 230px;
 }
 
+.logo-container {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+}
+
 .description-container {
-  padding: 3px 5 3px 10px;
+  margin: 3px 5 3px 15px;
+  width: 240px;
   &__head {
     display: flex;
     justify-content: space-between;

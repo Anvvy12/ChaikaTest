@@ -6,6 +6,7 @@ interface TransactionType {
   date: string;
   pending: boolean;
   authorizedUser: string | null;
+  logo: string;
 }
 
 export default TransactionType;

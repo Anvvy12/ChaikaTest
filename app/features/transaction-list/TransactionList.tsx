@@ -2,7 +2,6 @@ import TransacrionListItem from "./TransactionsListItem";
 import TransactionType from "@/app/types";
 import handler from "@/app/api";
 import { useState, useEffect } from "react";
-
 import "./transaction-list.scss";
 
 const TransactionList: React.FC = () => {
@@ -34,6 +33,7 @@ const TransactionList: React.FC = () => {
           date={item.date}
           pending={item.pending}
           authorizedUser={item.authorizedUser}
+          logo={item.logo || ""}
         />
       ))}
     </ul>

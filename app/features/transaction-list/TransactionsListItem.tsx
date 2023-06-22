@@ -1,4 +1,5 @@
 import TransactionType from "@/app/types";
+import Image from "next/image";
 import { getDayOfWeek } from "@/app/healper";
 
 const TransacrionListItem: React.FC<TransactionType> = ({
@@ -9,11 +10,20 @@ const TransacrionListItem: React.FC<TransactionType> = ({
   date,
   pending,
   authorizedUser,
+  logo,
 }) => {
   return (
     <li className="transoction-list__item">
       <div className="item-container">
-        <img src="/path/to/image.jpg" alt="image" className="list-icon" />
+        <div className="logo-container">
+          <Image
+            src={logo}
+            width={40}
+            height={40}
+            alt={"Company Logo"}
+            decoding="async"
+          />
+        </div>
         <div className="description-container">
           <div className="head-container">
             <h5 className="description-container__head">{name}</h5>

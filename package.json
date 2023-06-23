@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anvvy12.github.io/ChaikaTest/",
+  "homepage": "https://anvvy12.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

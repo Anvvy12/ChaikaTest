@@ -1,5 +1,6 @@
 import TransactionType from "@/app/types";
 import Image from "next/image";
+import Link from "next/link";
 import { getDayOfWeek } from "@/app/healper";
 
 const TransacrionListItem: React.FC<TransactionType> = ({
@@ -28,7 +29,7 @@ const TransacrionListItem: React.FC<TransactionType> = ({
           <div className="head-container">
             <h5 className="description-container__head">{name}</h5>
             <h5 className="description-container__price">
-              {type === "Payment" ? "+" : ""}${amount}
+              {type === "Payment" ? "-" : "+"}${amount}
             </h5>
           </div>
 
@@ -42,8 +43,11 @@ const TransacrionListItem: React.FC<TransactionType> = ({
             {getDayOfWeek(date)}
           </span>
         </div>
+
         <div className="item-arrow">
-          <i className="gg-chevron-right"></i>
+          <Link href={`/detals-page/DetalsPage`}>
+            <i className="gg-chevron-right"></i>
+          </Link>
         </div>
       </div>
     </li>

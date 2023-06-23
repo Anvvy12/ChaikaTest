@@ -1,6 +1,7 @@
 import TransactionType from "@/app/types";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "react-router-dom";
+import { useRouter } from "next/router";
 import { getDayOfWeek } from "@/app/healper";
 
 const TransacrionListItem: React.FC<TransactionType> = ({
@@ -45,9 +46,7 @@ const TransacrionListItem: React.FC<TransactionType> = ({
         </div>
 
         <div className="item-arrow">
-          <Link href={`/detals-page/DetalsPage`}>
-            <i className="gg-chevron-right"></i>
-          </Link>
+          <i className="gg-chevron-right"></i>
         </div>
       </div>
     </li>
